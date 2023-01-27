@@ -6,7 +6,8 @@
 }
 body{
 overflow-x: hidden;
-min-height: 100vh;
+max-height: 100vh;
+max-width: 100vw;
 background-color:black;
 }
 nav{
@@ -48,7 +49,14 @@ h2{
     justify-content: space-between;
 }
 .img1{
-    margin-top: 300px;
+    position: absolute;
+    margin-top:500px;
+}
+.img2{
+    position:absolute ;
+    margin-top:400px;
+    right: 200px;
+    max
 }
 p{
     color: antiquewhite;
@@ -58,5 +66,5 @@ p{
 width: 1000px;
 text-align: center;
 margin-left: 1000px;
-margin-top:200px;
+margin-top:1500px;
 }
